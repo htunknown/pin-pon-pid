@@ -1,11 +1,11 @@
 # Required Materials:
 - Servo motor
 - Pin pon ball
--Arduino Uno 
--HC-SR04: Ultrasonic distance sensor
--Cardboard
--Tape and glue
--Toothpick: for joints and limitors
+- Arduino Uno 
+- HC-SR04: Ultrasonic distance sensor
+- Cardboard
+- Tape and glue
+- Toothpick: for joints and limitors
 
 
 
