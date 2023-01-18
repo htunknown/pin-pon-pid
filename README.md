@@ -1,6 +1,6 @@
 # Required Materials:
 - Servo motor
-- Pin pon ball
+- Ping pong ball
 - Arduino Uno 
 - HC-SR04: Ultrasonic distance sensor
 - Cardboard
