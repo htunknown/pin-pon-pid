@@ -9,8 +9,8 @@ float pulse_width, distance;
 NewPing sonar(TRIGGER_PIN, ECHO_PIN, MAX_DISTANCE); // NewPing setup of pins and maximum distance.
 
 Servo myservo;  // Indicated servo name
-int potpin = A0;  // Potantiometer pin. Normally potantiometer is not necessary to work the system. However, servo motor can be controlled by potantiometer
-//at first to change the position of it. In this way, the system can be set horizontally. 
+int potpin = A0;  // Potantiometer pin. Normally potantiometer is not necessary to work the system. 
+// However, servo motor can be controlled by potantiometer at first to change the position of it. In this way, the system can be set horizontally. 
 int val;    // variable to read the value from the analog pin
 int delta;
 int newval; 
