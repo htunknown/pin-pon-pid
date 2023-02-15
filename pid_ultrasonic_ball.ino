@@ -49,8 +49,8 @@ void loop() {
   distance=sonar.ping_cm();  //get the distance by library function in cm
   
   //---------the data will be taken in a shorter time and this part decreases the small errors between values--------//
+  new_distance=(distance+old_distance)/2;
   old_distance=distance;
-  new_distance=(distance+old_distance)/2; 
  /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //----------------I had a problem with some sensor values, so this part is not necessary normally-----------------//
